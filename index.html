@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Maria" content=" Mon premier site HTML CSS - De carvalho">
+    <meta name="keywords" content="HTML, CSS, decarvalho, site HTML CSS">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet"> 
+    <title>Mon premier site en HTML/CSS</title>
+    <!--lien vers le kit de font awesome-->
+    <script src="https://kit.fontawesome.com/18477be456.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+    background-color: rgb(191, 248, 229);
+}
+nav {
+    background-color: rgb(233, 217, 247);
+    height: 30px;
+}
+a {
+    color: crimson;
+    font-size: larger;
+    text-decoration-line: none;
+}
+    </style>
+</head>
+<body>
+    <!--<h2>Mon premier site en HTML/CSS - Structure</h2> -->
+    <header>
+        <!--zone haute de la page-->
+        <div id="logo"><!--ancre pour remonter en haut de la page-->
+            <a href="#logo"></a><!--lien sue un bouton pour remonter en haut de la page - le bouton sera affiché en bas de page (évidement) grâce au css--><button type="button"><i class="fas fa-arrow-circle-up"></i></button>
+            <img src="img/logo.png" alt="Mon premier site HTML CSS">
+        </div><!--div pour le logo-->
+        <div id="slogan"><h1>Mon premier site HTML CSS</h1></div><!--la div pour le titre su site-->
+        <div id="social"><!--la div des liens vers les réseaux sociaux-->
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>           
+        </div>
+        <!--je ratablis le flux-->
+        <div class="clear"></div>
+        </header>
+        <nav><!--zone du menu, les liens pour naviguer sur le site-->
+            <a href="index.html" title="Site Phase 2">Structure</a>
+            <a href="pages/texte.html" title="Site Phase 2">Texte</a>
+            <a href="pages/image.html" title="Site Phase 2">Image</a>
+            <a href="pages/position.html" title="Site Phase 2">Position</a>
+            <a href="pages/zoning.html" title="Site Phase 2">Zoning</a>
+            <a href="pages/tableau.html" title="Site Phase 2">Tableau</a>
+            <a href="pages/liste.html" title="Site Phase 2">Liste</a>
+            <a href="pages/lien_menu.html" title="Site Phase 2">Lien & menu</a> 
+            <a href="pages/formulaire.html" title="Site Phase 2">Formulaire</a> 
+            <a href="pages/multimedia.html" title="Site Phase 2">Multimedia</a> 
+            <a href="pages/animation.html" title="Site Phase 2">Animation</a>
+        </nav>
+        <main>
+            <!--contenu principal-->
+            <aside></aside><!--aside contenu secondaire ou contenu latéral à gauche ou à droite-->
+            <section>
+                <div></div>
+                <span></span>
+                <article></article>
+            </section><!--zone de contenu; titre; texte, regroupement thématique etc.-->
+        </main>
+        <footer>
+            <!--pied de page-->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi consequuntur minima aliquid. Porro odio dicta in cum itaque incidunt ipsum reprehenderit aperiam animi doloremque architecto, quo officia autem, vitae molestias!</p>
+        </footer>
+    </body>
+    </html>
