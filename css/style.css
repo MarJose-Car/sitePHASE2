@@ -1,7 +1,9 @@
 /*feuille de style du site Phase 2 webForce 3*/
+/*google font utilisé dans le style Oswald, Lemonada et Anton*/
 body {
     background-image: url(../img/concrete-texture.png);
 }
+/*************************TITRES - TEXTES - ETC****************************/
 h1 {
     font-family: 'Anton', sans-serif;
     font-size: 44px;
@@ -9,7 +11,33 @@ h1 {
     text-align: center;
     letter-spacing: 1px;
 }
-/*HEADER INDEX ET SITE*/
+h2 {
+    font-size: 35px;
+    color: #2c3b50;
+    /* padding: 20px; */
+    font-weight: bold;
+    /*ombre porté sur le lettrage*/
+    text-shadow: 1px 1px 2px #aaa;
+}
+h3 {
+    font-size: 22px;
+    color: #2c3b50;
+    /* padding: 15px; */
+    /*ombre porté sur le lettrage*/
+    text-shadow: 1px 1px 2px #aaa;
+}
+h4 {
+    text-align: center;
+    margin-top: 30px;
+}
+blockquote {
+    font-style: italic;
+    font-size: 120%;
+}
+strong {
+    font-weight: bold;
+}
+/*******************************HEADER INDEX ET SITE********************/
 header {
     background-color: #2c3b50;
     /* height: 175px; */
@@ -32,10 +60,115 @@ header {
     width: 25%;
     float: left;
 }
-/*float*/
+/*******************************DENUT NAV*******************************/
+nav {
+    background-color: #2980b9;
+    height: 70px;
+    padding: 15px;
+    border-bottom: 8px solid #6acafc;
+    text-align: center;
+}
+nav a {
+    margin: 10px;
+    padding: 2px 10px;
+    border-radius: 10px 0px;
+    border: 2px solid #fff;
+    background: #6acafc;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.5s;
+}
+nav a:hover{
+    background-color: #2c3b50;
+    color: #fff;
+}
+.active {
+    background-color: #2c3b50;
+    color: #fff;
+}
+main {
+    /* - Alphaopacité de la couleur*/
+    background-color: rgba(178, 178, 178, 0.30);
+    margin: 0 auto;
+    width: 1200px;
+}
+aside {
+    height: 250px;
+    background: #06d6c3;
+}
+section {
+    background: #daf7a6;
+    margin-top: 50px;
+    padding: 20px;
+}
+footer {
+    background: #2980b9;
+    height: 30px;
+    color: #fff;
+}
+/*****************************LA PAGE ZONING*****************************/
+/*le zoning 1*/
+#zoning1 {
+    background: #ffd6d6;
+    border: 1px solid #000;
+    width: 798px;
+    margin: auto;
+    text-align: center;
+
+}
+#zoning1 header {
+    background-color: #f7f390;
+    height: 70px;
+}
+#zoning1 aside {
+    background-color: #10828c;
+    height: 525px;
+    float: left;
+    width: 20%;
+    color: #fff;
+}
+#zoning1 section {
+    height: 525px;
+    width: 80%;
+    background: #38817a;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+/* Le zoning n°2*/
+#zoning2 {
+    background: #ffd6d6;
+    border: 1px solid #000;
+    width: 798px;
+    margin: auto;
+    text-align: center;
+}
+#zoning2 header {
+    background-color: #f7f390;
+    height: 70px;
+    padding: 0;
+    margin: 0;
+}
+#zoning2 aside {
+    background-color: #10828c;
+    height: 525px;
+    float: left;
+    width: 20%;
+    color: #fff;
+    color: #fff;
+}
+.milieu {
+    height: 525px;
+    width: 60%;
+    background: #38817a;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+/*********************************FLOAT*********************************/
 .clear {
     clear: both;
 }
-#zoning1 header {
-    background-color: rgb(236, 142, 161);
-}
+

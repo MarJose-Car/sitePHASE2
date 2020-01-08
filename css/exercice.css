@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(248, 176, 192);
+    font-family: 'Playfair Display', serif;
+    color: blueviolet;
+}
+#social {
+    background-color: #c7d7ee;
+    width: 25%;
+    float: left;
+}
