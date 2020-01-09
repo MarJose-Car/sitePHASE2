@@ -317,7 +317,7 @@ footer {
 #zoning6 section {  
     float: left;
     width: 75%;
-    height: 250px;
+    /* height: 250px; */
     margin: 0;
     padding: 0;
 }
@@ -387,8 +387,7 @@ footer {
     float: left;
     width: 100%;
     background: #d8ebb5;
-    color: #000;
-  
+    color: #000; 
 }
 /*********************************FLOAT*********************************/
 .clear {
