@@ -1,27 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>Mon premier site en HTML/CSS - Lien & menu</title>
-</head>
-<body>
-    <h1>Mon premier site en HTML/CSS - Lien & menu</h1>
-    <nav>
-        <a href="../index.html" title="Site Phase 2">Structure</a>
-        <a href="texte.html" title="Site Phase 2">Texte</a>
-        <a href="image.html" title="Site Phase 2">Image</a>
-        <a href="position.html" title="Site Phase 2">Position</a>
-        <a href="zoning.html" title="Site Phase 2">Zoning</a>
-        <a href="tableau.html" title="Site Phase 2">Tableau</a>
-        <a href="liste.html" title="Site Phase 2">Liste</a>
-        <a href="lien_menu.html" title="Site Phase 2" class="active">Lien & menu</a> 
-        <a href="formulaire.html" title="Site Phase 2">Formulaire</a> 
-        <a href="multimedia.html" title="Site Phase 2">Multimedia</a> 
-        <a href="animation.html" title="Site Phase 2">Animation</a>
-        <a href="selecteur.html" title="Site Phase 2">Selecteur</a>
-    </nav>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Mon premier site en HTML/CSS - Image</title>
+        <script src="https://kit.fontawesome.com/18477be456.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Anton|Lemonada|Oswald&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+        <!-- <h2>Mon premier site en HTML/CSS - Zoning</h2> -->
+        <header>
+            <!--zone haute de la page-->
+            <div id="logo"><!--ancre pour remonter en haut de la page-->
+                <a href="#logo"></a><!--lien sue un bouton pour remonter en haut de la page - le bouton sera affiché en bas de page (évidement) grâce au css--><button type="button"><i class="fas fa-arrow-circle-up"></i></button>
+                <img src="../img/logo.png" alt="Mon premier site HTML CSS">
+            </div><!--div pour le logo-->
+            <div id="slogan"><h1>Mon premier site HTML CSS</h1></div><!--la div pour le titre su site-->
+            <div id="social"><!--la div des liens vers les réseaux sociaux-->
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            </div>
+            <div class="clear"></div>
+        </header>
+        <nav>
+            <a href="../index.html" title="Site Phase 2">Structure</a>
+            <a href="texte.html" title="Site Phase 2">Texte</a>
+            <a href="image.html" title="Site Phase 2">Image</a>
+            <a href="position.html" title="Site Phase 2">Position</a>
+            <a href="zoning.html" title="Site Phase 2">Zoning</a>
+            <a href="tableau.html" title="Site Phase 2">Tableau</a>
+            <a href="liste.html" title="Site Phase 2">Liste</a>
+            <a href="lien_menu.html" title="Site Phase 2" class="active">Lien & menu</a> 
+            <a href="formulaire.html" title="Site Phase 2">Formulaire</a> 
+            <a href="multimedia.html" title="Site Phase 2">Multimedia</a> 
+            <a href="animation.html" title="Site Phase 2">Animation</a>
+            <a href="selecteur.html" title="Site Phase 2">Selecteur</a>
+        </nav>
+        <footer>
+            <!--pied de page-->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi consequuntur minima aliquid. Porro odio dicta in cum itaque incidunt ipsum reprehenderit aperiam animi doloremque architecto, quo officia autem, vitae molestias!</p>
+        </footer>
+    </body>
 </html>

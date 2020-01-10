@@ -4,42 +4,146 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="Maria" content=" Mon premier site HTML CSS - De carvalho">
-        <meta name="keywords" content="HTML, CSS, decarvalho, site HTML CSS">
-        <link href="https://fonts.googleapis.com/css?family=Anton|Lemonada|Oswald&display=swap" rel="stylesheet">
-        <title>Mon premier site en HTML/CSS - Zoning</title>
-        <!--lien vers le kit de font awesome-->
-        <script src="https://kit.fontawesome.com/18477be456.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="../css/style.css">
+        <title>Zoning 1</title>
+        <style>
+            /* http://meyerweb.com/eric/tools/css/reset/ 
+            v2.0 | 20110126
+            License: none (public domain)
+            */
+            html, body, div, span, applet, object, iframe,
+            h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+            a, abbr, acronym, address, big, cite, code,
+            del, dfn, em, img, ins, kbd, q, s, samp,
+            small, strike, strong, sub, sup, tt, var,
+            b, u, i, center,
+            dl, dt, dd, ol, ul, li,
+            fieldset, form, label, legend,
+            table, caption, tbody, tfoot, thead, tr, th, td,
+            article, aside, canvas, details, embed, 
+            figure, figcaption, footer, header, hgroup, 
+            menu, nav, output, ruby, section, summary,
+            time, mark, audio, video {
+                margin: 0;
+                padding: 0;
+                border: 0;
+                font-size: 100%;
+                font: inherit;
+                vertical-align: baseline;
+            }
+            /* HTML5 display-role reset for older browsers */
+            article, aside, details, figcaption, figure, 
+            footer, header, hgroup, menu, nav, section {
+                display: block;
+            }
+            body {
+                line-height: 1;
+            }
+            ol, ul {
+                list-style: none;
+            }
+            blockquote, q {
+                quotes: none;
+            }
+            blockquote:before, blockquote:after,
+            q:before, q:after {
+                content: '';
+                content: none;
+            }
+            table {
+                border-collapse: collapse;
+                border-spacing: 0;
+            }
+            /*****************FIN RESET**************************/
+            * {
+                box-sizing: border-box;
+            }
+            body {
+            width: 800px;
+            margin: 0 auto;
+            color: #fff;
+            text-align: center;
+            }
+            section {  
+                float: left;
+                width: 75%;
+                margin: 0;
+                padding: 0;
+            }
+            header {  
+                background: #40a497;
+                height: 180px;  
+            }
+            .haut1 {
+            background: #203562;
+            float: left;
+            width: 25%;
+            height: 100%;
+        }
+        .haut2 {
+            background: #3e588f;
+            float: left;
+            width: 50%;
+            height: 100%;
+        }
+        .haut3 {
+            background: #203562;
+            float: left;
+            width: 25%;
+            height: 100%;
+        }
+        nav {
+            background: #0b5269;
+            border-bottom: 0;
+            height: 80px;
+        }
+        aside {
+            background: #446878;
+            float: left;
+            width: 25%;
+            height: 650px;
+        }
+        .slideshow {
+            background: #314a52;
+            height: 250px;
+        }
+         .a {
+            background: #c0c5cd;
+            float: left;
+            width: 50%;
+            height: 250px;
+        }
+            .b {
+                background: #203562;
+                float: left;
+                width: 50%;
+                height: 250px;
+        }
+            .c, .e {
+                background: #c0c5cd;
+                float: left;
+                width: 25%;
+                height: 150px;
+            }
+            .d, .f {
+                background: #203562;
+                float: left;
+                width: 25%;
+                height: 150px;
+            }
+            footer {
+                height: 70px;
+                float: left;
+                width: 100%;
+                background: #88b6e0;
+                color: #000; 
+            }
+      
+            .clear {
+                clear: both;
+            }
+        </style>
     </head>
     <body>
-        <header>
-            <!--zone haute de la page-->
-            <div id="logo"><!--ancre pour remonter en haut de la page-->
-                <a href="#logo"></a><!--lien sue un bouton pour remonter en haut de la page - le bouton sera affiché en bas de page (évidement) grâce au css--><button type="button"></button><i class="fas fa-arrow-circle-up"></i>
-                <img src="../img/logo.png" alt="Mon premier site HTML CSS">
-            </div><!--div pour le logo-->
-            <div id="slogan"><h1>Mon premier site HTML CSS</h1></div><!--la div pour le titre su site-->
-            <div id="social"><!--la div des liens vers les réseaux sociaux-->
-                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-            </div>
-            <div class="clear"></div>
-        </header>
-        <nav>
-            <a href="../index.html" title="Site Phase 2">Structure</a>
-            <a href="texte.html" title="Site Phase 2">Texte</a>
-            <a href="image.html" title="Site Phase 2">Image</a>
-            <a href="position.html" title="Site Phase 2">Position</a>
-            <a href="zoning.html" title="Site Phase 2" class="active">Zoning</a>
-            <a href="tableau.html" title="Site Phase 2">Tableau</a>
-            <a href="liste.html" title="Site Phase 2">Liste</a>
-            <a href="lien_menu.html" title="Site Phase 2">Lien & menu</a> 
-            <a href="formulaire.html" title="Site Phase 2">Formulaire</a> 
-            <a href="multimedia.html" title="Site Phase 2">Multimedia</a> 
-            <a href="animation.html" title="Site Phase 2">Animation</a>
-            <a href="selecteur.html" title="Site Phase 2">Selecteur</a>
-        </nav>
         <section>
             <h3>Zoning 6</h3>
             <div id="zoning6">
@@ -71,11 +175,6 @@
             </div>
             <div class="clear"></div>
         </section>
-    </main>
-    <footer>
-        <!--pied de page-->
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi consequuntur minima aliquid. Porro odio dicta in cum itaque incidunt ipsum reprehenderit aperiam animi doloremque architecto, quo officia autem, vitae molestias!</p>
-    </footer>
-        
+       
     </body>
 </html>

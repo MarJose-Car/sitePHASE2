@@ -48,6 +48,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*****************FIN RESET**************************/
 /*feuille de style du site Phase 2 webForce 3*/
 /*google font utilisé dans le style Oswald, Lemonada et Anton*/
 body {
@@ -207,7 +208,6 @@ footer {
     float: left;
     width: 20%;
     color: #fff;
-    color: #fff;
 }
 .milieu {
     height: 525px;
@@ -317,7 +317,6 @@ footer {
 #zoning6 section {  
     float: left;
     width: 75%;
-    /* height: 250px; */
     margin: 0;
     padding: 0;
 }
@@ -386,11 +385,86 @@ footer {
     height: 70px;
     float: left;
     width: 100%;
-    background: #d8ebb5;
+    background: #88b6e0;
     color: #000; 
 }
-/*********************************FLOAT*********************************/
+/*********************************FLOAT********************************/
 .clear {
     clear: both;
 }
+/*****************************LA PAGE TEXTE****************************/
+.oswald p {
+    font-family: 'Oswald', sans-serif;
+}
+/***************************LA PAGE SELECTEUR***************************/
+.select p {
+    color: red;
+}
+.select p:first-of-type {
+    color: pink;
+}
+.select p:last-of-type {
+    color: pink;
+}
+.select p:nth-of-type(5), .select p:nth-of-type(6) {
+    color:black;
+}
+.select div:not(.zoneB) {
+    font-weight: bold;
+}
+.select .zoneA {
+    color: #f56f56;
+}
+.select .zoneB {
+    color: #996633;
+}
+.select .zoneB .couleurBleu {
+    color: blue;
+    font-size: 16px;
+}
+.select #zoneC {
+    color: #98f32f;
+}
+.select #zoneD span {
+    color: #32ff32;
+    font-size: 30px;
+    font-style: italic;
+}
+/***************************LA PAGE SELECTEUR***************************/
+.imageFond {
+    background: url(../img/fond.jpg) no-repeat;
+    background-size: cover;
+}
+.imageFond p {
+    width: 75%;
+    margin: 100px auto 200px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.60);
+    font-size: 120%;
+    border-radius: 10px;
+}
+/*on pointe cette image spécifique*/
+img[src="../img/toureiffel.jpg"] {
+    width: 250px;
+    margin: auto;
+    display: block;
+}
+/*animation sur les images*/
+.image {
+    margin: 20px;
+    border: 15px solid #eee;
+    box-shadow: 4px 4px 4px rgba(243, 14, 14, 0.2);
+    transition: 1s;
+}
+.image:hover {
+    transform: rotate(-70deg);
+}
+.rotation360:hover {
+    transform: rotate(360deg);
+}
+.rotationImg {
+    text-align: center;
+}
+
+
 

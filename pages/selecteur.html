@@ -1,27 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>Mon premier site en HTML/CSS - Animation</title>
-</head>
-<body>
-    <h1>Mon premier site en HTML/CSS - Animation</h1>
-    <nav>
-        <a href="../index.html" title="Site Phase 2">Structure</a>
-        <a href="texte.html" title="Site Phase 2">Texte</a>
-        <a href="image.html" title="Site Phase 2">Image</a>
-        <a href="position.html" title="Site Phase 2">Position</a>
-        <a href="zoning.html" title="Site Phase 2">Zoning</a>
-        <a href="tableau.html" title="Site Phase 2">Tableau</a>
-        <a href="liste.html" title="Site Phase 2">Liste</a>
-        <a href="lien_menu.html" title="Site Phase 2">Lien & menu</a> 
-        <a href="formulaire.html" title="Site Phase 2">Formulaire</a> 
-        <a href="multimedia.html" title="Site Phase 2">Multimedia</a> 
-        <a href="animation.html" title="Site Phase 2">Animation</a>
-        <a href="selecteur.html" title="Site Phase 2" class="active">Selecteur</a>
-    </nav>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Mon premier site en HTML/CSS - Image</title>
+        <script src="https://kit.fontawesome.com/18477be456.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Anton|Lemonada|Oswald&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+        <!-- <h2>Mon premier site en HTML/CSS - Zoning</h2> -->
+        <header>
+            <!--zone haute de la page-->
+            <div id="logo"><!--ancre pour remonter en haut de la page-->
+                <a href="#logo"></a><!--lien sue un bouton pour remonter en haut de la page - le bouton sera affiché en bas de page (évidement) grâce au css--><button type="button"><i class="fas fa-arrow-circle-up"></i></button>
+                <img src="../img/logo.png" alt="Mon premier site HTML CSS">
+            </div><!--div pour le logo-->
+            <div id="slogan"><h1>Mon premier site HTML CSS</h1></div><!--la div pour le titre su site-->
+            <div id="social"><!--la div des liens vers les réseaux sociaux-->
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            </div>
+            <div class="clear"></div>
+        </header>
+        <nav>
+            <a href="../index.html" title="Site Phase 2">Structure</a>
+            <a href="texte.html" title="Site Phase 2">Texte</a>
+            <a href="image.html" title="Site Phase 2">Image</a>
+            <a href="position.html" title="Site Phase 2">Position</a>
+            <a href="zoning.html" title="Site Phase 2">Zoning</a>
+            <a href="tableau.html" title="Site Phase 2">Tableau</a>
+            <a href="liste.html" title="Site Phase 2">Liste</a>
+            <a href="lien_menu.html" title="Site Phase 2">Lien & menu</a> 
+            <a href="formulaire.html" title="Site Phase 2">Formulaire</a> 
+            <a href="multimedia.html" title="Site Phase 2">Multimedia</a> 
+            <a href="animation.html" title="Site Phase 2">Animation</a>
+            <a href="selecteur.html" title="Site Phase 2" class="active">Selecteur</a>
+        </nav>
+        <main>
+            <h2>Sélecteurs</h2>
+            <section class="select">
+                <h3>Les sélecteurs</h3>
+                <p>Texte n° 1</p>
+                <p>Texte n° 2</p>
+                <p>Texte n° 3</p>
+                <p>Texte n° 4</p>
+                <p>Texte n° 5</p>
+                <p>Texte n° 6</p>
+                <p>Texte n° 7</p>
+                <p>Texte n° 8</p>
+                <p>Texte n° 9</p>
+                <p>Texte n° 10</p>
+                <div class="zoneA">Zone A</div>
+                <div class="zoneB">Zone B Zone B <span class="couleurBleu"> /!\texte/!\</span>Zone B Zone B</div>
+                <div id="zoneC">Zone C</div>
+                <div id="zoneD">Zone <span>D</span></div>
+            </section>
+        </main>
+        <footer>
+            <!--pied de page-->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi consequuntur minima aliquid. Porro odio dicta in cum itaque incidunt ipsum reprehenderit aperiam animi doloremque architecto, quo officia autem, vitae molestias!</p>
+        </footer>
+    </body>
 </html>
