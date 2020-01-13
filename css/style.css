@@ -65,9 +65,9 @@ h1 {
 h2 {
     font-size: 35px;
     color: #2c3b50;
-    /* padding: 20px; */
+    padding: 20px;
     font-weight: bold;
-    /*ombre porté sur le lettrage*/
+    /* ombre porté sur le lettrage */
     text-shadow: 1px 1px 2px #aaa;
 }
 h3 {
@@ -91,7 +91,7 @@ strong {
 /*******************************HEADER INDEX ET SITE********************/
 header {
     background-color: #2c3b50;
-    /* height: 175px; */
+    height: 175px;
 }
 #logo {
     background-color: #2c3b50;
@@ -465,6 +465,115 @@ img[src="../img/toureiffel.jpg"] {
 .rotationImg {
     text-align: center;
 }
-
-
+/***************************LA PAGE TABLEAU***************************/
+.tableau table {
+    /* border-collapse: collapse; */
+    width: 80%;
+    margin: auto;
+    border: 2px solid #6495ed;
+    font-weight: bold;
+}
+.tableau thead, .tableau tfoot{
+    background: #d0e3fa;
+    border: 1px solid #6495ed;
+}
+.tableau tbody {
+    border: 1px solid #6495ed;
+}
+.tableau th {
+    border: 1px solid #6495ed;
+    padding: 5px;
+    width: 40%;
+} 
+.tableau td {
+    border: 1px solid #6495ed;
+    padding: 5px;
+    text-align: center;
+    font-size: 80%;
+}
+/***************************LA PAGE LISTE***************************/
+ul.fruit li {
+    display: inline;  
+    margin: 15px;
+}
+li .fa {
+    font-size: 90%;
+    color: #6195ed;
+}
+li .fa:hover {
+    font-size: 150%;
+    color: #3e588f;
+}
+.imbriquee, .imbriquee ul {
+    padding-left: 15px;
+}
+imbriquee {
+    cursor: pointer;
+}
+.imbriquee ul {
+    /* dysplay none n'affiche pas le contenu de l'élément*/
+    display: none;
+}
+.europe:hover ul, .asie:hover ul {
+    /*dysplay block je fais réapparaitre les éléments de la ul*/
+    display: block;
+}
+.imbriquee li ul li:hover {
+    font-size: 150%;
+    background: #e74c3c;
+    display: inline;
+    box-shadow: 5px 10px 10px rgb(128, 128, 128);
+    transition-duration: 1s;
+}
+/***************************LA PAGE FORMULAIRE***************************/
+form {
+    width: 60%;
+    background: #2c3e50;
+    margin: 0 auto;
+    padding: 20px;
+    color: #ecf0f1;
+    border-radius: 15px;
+}
+label {
+    margin: 10px 0;
+    width: 50%;
+    display: inline-block;
+}
+textarea {
+    resize : none
+}
+label[for="orange"], label[for="fraise"], label[for="poire"] {
+    width: 15%;
+    padding-left: 45px;
+}
+/***************************LA PAGE LIEN E MENU***************************/
+/*style des liens*/
+.ancre {
+    text-align: center;
+}
+.ancre a {
+    margin: 8px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background: #2c3b50;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    box-shadow: 0px 0px 10px 3px #fff;
+    font-family: 'Oswald', sans-serif;
+}
+.ancre a:hover {
+    box-shadow: none;
+    transition-duration: 0.5s;
+    text-shadow: 1px 5px 10px rgb(240, 148, 148);
+}
+#lien a {
+    text-decoration: none;
+    color: #2980b9;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+#lien a:hover {
+    color: #f16529;
+}
 

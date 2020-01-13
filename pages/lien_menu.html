@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Mon premier site en HTML/CSS - Image</title>
+        <title>Mon premier site en HTML/CSS - Lien menu</title>
         <script src="https://kit.fontawesome.com/18477be456.js" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css?family=Anton|Lemonada|Oswald&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../css/style.css">
@@ -38,6 +38,75 @@
             <a href="animation.html" title="Site Phase 2">Animation</a>
             <a href="selecteur.html" title="Site Phase 2">Selecteur</a>
         </nav>
+        <main>
+            <h2>Liens</h2>
+            <div class="ancre">
+                <a href="#lien">Les liens</a>
+                <a href="#menu">Menu</a>
+                <a href="#menuDeroulant">Menu déroulant</a>
+            </div>
+            <h3>Les liens</h3>
+            <!--Dans le lien nous aurons aussi (title="xxx") pour ouvrir fenêtre d'info au passage de la souris sur le lien et (target="_blank") pour envoyer sur un autre onglet"-->
+            <a href="https://codepen.io" title="Se rendre sur le site de CodePen" target="_blank">CodePen</a> is a social
+            development environment for front-end designers and developers.<br>
+            <a href="http://www.google.fr" target="_blank">Google</a> le moteur de recherche.<br>
+            <a href="../fichiers/planning.pdf">Télécharger mon CV</a><br>
+            <!-- On peut ajouter juste un download dans le lien pour rendre téléchargeable le fichier -->
+            <a href="../fichiers/planning.pdf" target="_blank">Voir mon CV</a><br>
+            <!-- Pour imprimer ma page -->
+            <a href="#" onclick="window.print()">Imprimer la page</a><br>
+            <!--Pour rendre cliquable une image et renvoyer sur le lien inséré dessus-->
+            <a href="https://www.facebook.com/" target="_blank"><img src="img/facebook.ico" alt=""><i class="fab fa-facebook-square"></i></a><br>
+            <!-- Inséré le lien juste dans " ici " qui renvoi sur une autre page de mon site -->
+            Cliquer <a href="index.html">ici</a> pour vous rendre sur la page.
+                <section id="lien"></section>
+                <section id="menu">
+                    <h3>Le menu</h3>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Accueil</a></li>
+                            <li><a href="#">Parcours</a></li>
+                            <li><a href="#">Réalisations</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                </section>
+                <section id="menuDeroulant">
+                    <h3>Un menu déroulant</h3>
+                    <nav>
+                        <ul class="niveau1">
+                            <li><a href="niveau2">Accueil</a></li>
+                            <li class="sousMenu"><a href="#">Formations</a>
+                                <ul class=""><!--ul.>li*4-->
+                                    <li><a href="#">Etudiants</a></li>
+                                    <li><a href="#">Emploi du temps</a></li>
+                                    <li><a href="#">recherche d'emploi</a></li>
+                                    <li><a href="#">Documents</a></li>
+                                </ul>
+                        </li>
+                            <li><a href="#">Informations</a></li>
+                            <li class="sousMenu"><a href="#">Cours</a>
+                                <ul class="">
+                                    <li><a href="#">Internet</a></li>
+                                    <li><a href="#">HTMl CSS</a></li>
+                                    <li><a href="#">CMS</a></li>
+                                    <li><a href="#">STATS</a></li>
+                                    <li><a href="#">Réseaux</a></li>
+                                    <li><a href="#">Référencement</a></li>
+                                    <li><a href="#">Marketing</a></li>
+                                    <li><a href="#">Cahier des charges</a></li>
+                                    <li><a href="#">Photoshop</a></li>
+                                </ul>
+
+                            
+                            </li>
+                            <li><a href="#">ccueil</a></li>
+                            <li><a href="#">ccueil</a></li>
+                            <li><a href="#">ccueil</a></li>
+                        </ul>
+                    </nav>
+                </section>  
+        </main>
         <footer>
             <!--pied de page-->
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi consequuntur minima aliquid. Porro odio dicta in cum itaque incidunt ipsum reprehenderit aperiam animi doloremque architecto, quo officia autem, vitae molestias!</p>

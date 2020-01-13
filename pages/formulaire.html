@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Mon premier site en HTML/CSS - Image</title>
+        <title>Mon premier site en HTML/CSS - Formulaire</title>
         <script src="https://kit.fontawesome.com/18477be456.js" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css?family=Anton|Lemonada|Oswald&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../css/style.css">
@@ -38,6 +38,39 @@
             <a href="animation.html" title="Site Phase 2">Animation</a>
             <a href="selecteur.html" title="Site Phase 2">Selecteur</a>
         </nav>
+        <main>
+            <h2>Formulaire</h2>
+            <section class="formulaire">
+                <!--action : manière de circulation des donnéés-->
+                <!--action : url de destination, le fichier php qui va servir à traiter les donnéés-->
+                <!--enctype : permet d'envoyer un fichier correctement, l'encodage du formulaire-->
+                <form action="url_de_destination.php" method="post" enctype="multipart/form-data">
+                        <label for="pseudo">Pseudo *</label>
+                        <input type="text" name="pseudo" id="pseudo" required><br>
+                        <label for="prenom">Prénom</label>
+                        <input type="text" id="prenom" name="prenom" placeholder="Taper votre prénom"><br>
+                        <label for="password">Mot de passe</label>
+                        <input type="password" name="mdp" id="mdp"><br>
+                        <label for="email">Email *</label>
+                        <input type="email" name="email" id="email"><br>
+                        <label for="cv">Votre CV *</label>
+                        <input type="file" name="cv" id="cv">
+                        <p>Quels sont vos fruits préférés?</p>
+                        <label for="orange">Orange</label>
+                        <input type="checkbox" id="orange" value="orange" checked>                     
+                        <label for="fraise">Fraise</label>
+                        <input type="checkbox" id="fraise" value="fraise" checked>
+                        <label for="poire">Poire</label>
+                        <input type="checkbox" id="poire" value="poire" checked>
+                        <label for="code-postal">Code Postal</label>
+                        <input type="text" id="code_postal" name="code_postal" maxlength="5" pattern="[0-9]{5}" title="5 chiffres entre 0 et 9"><br>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" cols="25"></textarea><br>
+                        <input type="submit" name="submit" value="envoyer">
+                        <input type="reset" name="annuler" value="annuler">
+                </form>
+            </section>
+        </main>
         <footer>
             <!--pied de page-->
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi consequuntur minima aliquid. Porro odio dicta in cum itaque incidunt ipsum reprehenderit aperiam animi doloremque architecto, quo officia autem, vitae molestias!</p>
