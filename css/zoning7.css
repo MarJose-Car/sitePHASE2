@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(248, 248, 221);
+}
+.blue {
+    background: rgb(143, 247, 238);
+}
+.pink {
+    background: rgb(250, 209, 250);
+}
+.yellow {
+    background: rgb(245, 245, 141);
+}
+.grey {
+    background: rgb(223, 188, 188);
+}
+#conteneur {
+    background: paleturquoise;
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    }
+header {
+    background: olive;
+    height: 60px;
+    line-height: 60px;
+}
+nav {
+    background: thistle;
+    height: 30px;
+}
+.grande_zone{
+    float: left;
+    height: 250px;
+    width: 480px;
+}
+.petite_zone {
+    float: left;
+    width: 240px;
+    height: 125px;
+    /* bidouille sur le texte mais si on a que du texte dans nos div, on met en line-height la valeur de la hauteur de la div*/
+    /* line-height: 125px; */
+    border: 1px solid #000;
+    line-height: 125px;
+}
+footer {
+    background: rgb(243, 240, 240);
+    margin: auto;
+    width: 960px;
+    height: 60px;
+    text-align: center;
+}
+.clear {
+    clear: both;
+}

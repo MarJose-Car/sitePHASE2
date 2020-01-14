@@ -637,3 +637,45 @@ label[for="orange"], label[for="fraise"], label[for="poire"] {
     display: block;
 }
 /*https://www.w3schools.com/default.asp*/
+/***************************LA PAGE MULTIMEDIA***************************/
+.videoFond {
+    padding-left: 0;
+    padding-right: 0;
+}
+.videoFond video {
+    width: 100%;
+    position: absolute;
+    /*ordre d'empilement*/
+    z-index: 1;
+}
+.videoTexte {
+    /*position relative au parent*/
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+.videoFond p {
+    position: absolute;
+    left: 250px;
+    top: 150px;
+    /*z-index 2 en numéro 2*/
+    z-index: 2;
+    width: 500px;
+    margin: auto;
+    background: rgb(255, 255, 255, 0.60);
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 120%;
+}
+.youtube {
+    padding: 160px;
+}
+iframe[src="https://www.youtube.com/embed/Gcqu2V5lBZo"] {
+    width: 100%;
+    height: 700px;
+}
+.audio {
+    text-align: center;
+}
+
+
