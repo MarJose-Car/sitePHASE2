@@ -14,7 +14,7 @@
         <header>
             <!--zone haute de la page-->
             <div id="logo"><!--ancre pour remonter en haut de la page-->
-                <a href="#logo"></a><!--lien sue un bouton pour remonter en haut de la page - le bouton sera affiché en bas de page (évidement) grâce au css--><button type="button"><i class="fas fa-arrow-circle-up"></i></button>
+                <a href="#logo"><!--lien sue un bouton pour remonter en haut de la page - le bouton sera affiché en bas de page (évidement) grâce au css--><button type="button"><i class="fas fa-arrow-circle-up"></i></button></a>
                 <img src="../img/logo.png" alt="Mon premier site HTML CSS">
             </div><!--div pour le logo-->
             <div id="slogan"><h1>Mon premier site HTML CSS</h1></div><!--la div pour le titre su site-->
@@ -27,6 +27,7 @@
         <nav>
             <a href="../index.html" title="Site Phase 2">Structure</a>
             <a href="texte.html" title="Site Phase 2">Texte</a>
+            <a href="selecteur.html" title="Site Phase 2">Selecteur</a>
             <a href="image.html" title="Site Phase 2">Image</a>
             <a href="position.html" title="Site Phase 2" class="active">Position</a>
             <a href="zoning.html" title="Site Phase 2">Zoning</a>
@@ -36,8 +37,71 @@
             <a href="formulaire.html" title="Site Phase 2">Formulaire</a> 
             <a href="multimedia.html" title="Site Phase 2">Multimedia</a> 
             <a href="animation.html" title="Site Phase 2">Animation</a>
-            <a href="selecteur.html" title="Site Phase 2">Selecteur</a>
         </nav>
+        <main>
+            <h2>Position</h2>
+            <section>
+                <h3>Centrer un élément de type block</h3>
+                <div class="centre"></div>
+            </section>
+            <section>
+                <h3>Carré Jaune ! Regarde en haut camarade</h3>
+                <div class="absolute"></div>
+            </section>
+            <section>
+                <h3>Position relative</h3>
+                <div class="relative">
+                    <div><p>15 Janvier 2020</p></div>
+                </div>
+            </section>
+            <section>
+                <h3>Les pourcentages</h3>
+                <div class="trente">30%</div>
+                <div class="cinquante">50%</div>
+                <div class="cent">100%</div>
+            </section>
+            <section>
+                <h3>Attribut float</h3>
+                <div class="float">1</div>
+                <div class="float">2</div>
+                <div class="float">3</div>
+                <div class="float">4</div>
+                <div class="clear"></div>
+                <div class="float">5</div>              
+                <div class="float">6</div>
+                <div class="float">7</div>
+                <div class="clear"></div>
+                <div class="float">8</div>            
+                <div class="float">9</div>
+                <div class="dernier clear">10</div>
+            </section>
+            <section>
+                <h3>Exercice sur le float</h3>
+                <div class="zone"></div>
+                <div class="zone1"></div>
+                <div class="zone2"></div>
+                <div class="zone3"></div>
+                <div class="zone4"></div>
+                <div class="zone clear"></div>
+            </section>
+            <section>
+                <h3>Flexbox</h3>
+                <article class="flex">
+                <!--div*4{$} - raccourci-->
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div>5</div>
+                <div>6</div>
+                <div>7</div>
+                <div>8</div>
+                <div>9</div>
+                <div>10</div>       
+                </article>
+            </section>
+        </main>
+        <div class="clear"></div>
         <footer>
             <!--pied de page-->
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi consequuntur minima aliquid. Porro odio dicta in cum itaque incidunt ipsum reprehenderit aperiam animi doloremque architecto, quo officia autem, vitae molestias!</p>

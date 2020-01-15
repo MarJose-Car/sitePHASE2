@@ -1,0 +1,48 @@
+body {
+    background: rgb(243, 177, 153);
+}
+#conteneur {
+    background: rgb(252, 144, 165);
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+header {
+    background: rgb(243, 68, 68);
+    height: 100px;
+    width: 100%;
+    line-height: 100px;
+}
+.gauche, .droite {
+    background: rgb(125, 125, 236);
+    width: 150px;
+    height: 500px;
+    float: left;
+    line-height: 500px;
+}
+.milieu {
+    background: rgb(1, 143, 1);
+    width: 500px;
+    height: 500px;
+    float: left;
+}
+.zone1, .zone2, .zone3, .zone4, .zone5 {
+    background: rgb(241, 202, 150);
+    height: 450px;
+    width: 100px;
+    float: left;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+.bas {
+    background: rgb(248, 248, 3);
+    height: 50px;
+    position: relative;
+    right: 0;
+    top: 450px;
+    bottom: 0;
+    color: red;
+    
+
+}

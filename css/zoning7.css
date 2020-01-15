@@ -32,11 +32,12 @@ nav {
     float: left;
     height: 250px;
     width: 480px;
+    border: 1px solid rgb(207, 53, 53);
 }
 .petite_zone {
     float: left;
-    width: 240px;
-    height: 125px;
+    width: 238px;
+    height: 123px;
     /* bidouille sur le texte mais si on a que du texte dans nos div, on met en line-height la valeur de la hauteur de la div*/
     /* line-height: 125px; */
     border: 1px solid #000;
