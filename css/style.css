@@ -389,9 +389,6 @@ footer {
     color: #000; 
 }
 /*********************************FLOAT********************************/
-.clear {
-    clear: both;
-}
 /*****************************LA PAGE TEXTE****************************/
 .oswald p {
     font-family: 'Oswald', sans-serif;
@@ -818,4 +815,8 @@ button {
     font-size: 50px;
     color: #fff;
     /* margin: 2px; */
+}
+/***************************LA PAGE ANIMATION***************************/
+.clear {
+    clear: both;
 }

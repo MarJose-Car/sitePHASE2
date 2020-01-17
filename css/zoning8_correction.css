@@ -1,3 +1,4 @@
+/* solution 1 sans .clear dans le HTML*/
 body {
     background: rgb(243, 177, 153);
 }
@@ -7,6 +8,7 @@ body {
     height: 600px;
     margin: 0 auto;
     text-align: center;
+    color: #fff;
 }
 header {
     background: rgb(243, 68, 68);
@@ -29,20 +31,22 @@ header {
 }
 .zone1, .zone2, .zone3, .zone4, .zone5 {
     background: rgb(241, 202, 150);
-    height: 450px;
+    height: 500px;
     width: 100px;
     float: left;
     border: 1px solid #000;
     box-sizing: border-box;
 }
 .bas {
-    background: rgb(248, 248, 3);
+    background: rgb(248, 121, 3);
     height: 50px;
+    /*.bas est l'nfant de lélément .milieu et il a une position relative à son parent*/
     position: relative;
-    right: 0;
+    /* right: 0; */
     top: 450px;
-    bottom: 0;
-    color: red;
-    
-
+    /*.bas est positioné à 450px de lélément .milieu*/
+}
+.bas p {
+    /*le p est absolu par rapport à son parent .bas et non pas par rapport à son ancêtre car .bas est relative*/
+    position: absolute;
 }
